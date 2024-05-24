@@ -22,7 +22,11 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["src*"],
-      "@app": ["src/app/index"]
+      "@app": ["src/app/index"],
+      "@widgets": ["src/widgets/index"],
+      "@features": ["src/features/index"],
+      "@entities": ["src/entities/index"],
+      "@shared": ["src/shared/index"]
     }
   },
   "include": [
