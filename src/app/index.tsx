@@ -1,12 +1,9 @@
-import React from 'react';
-import {Div} from "./index.style";
+import {Register} from "@widgets";
+
+var setVars = new Set();
 
 function App() {
-  return (
-    <Div className="App">
-      Hello word
-    </Div>
-  );
+    return <Register/>;
 }
 
 export default App;

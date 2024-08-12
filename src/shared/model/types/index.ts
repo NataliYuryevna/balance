@@ -1,0 +1,1 @@
+export type {typeChild as typeChildForm} from './form';
